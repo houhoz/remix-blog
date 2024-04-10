@@ -34,3 +34,14 @@ Make sure to deploy the output of `npm run build`
 
 - `build/server`
 - `build/client`
+
+
+```bash
+# 安装 Tailwind CSS
+pnpm add tailwindcss postcss autoprefixer
+# 初始化 tailwindcss
+pnpm exec tailwindcss init --ts -p
+
+# 安装nextui
+pnpm add @nextui-org/react framer-motion
+```
