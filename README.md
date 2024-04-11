@@ -44,4 +44,14 @@ pnpm exec tailwindcss init --ts -p
 
 # 安装nextui
 pnpm add @nextui-org/react framer-motion
+
+# prisma
+pnpm i prisma  -D
+pnpm i @prisma/client
+
+pnpm exec prisma init --datasource-provider sqlite
+
+pnpm exec prisma migrate dev --name init
+pnpm exec prisma db push
+
 ```
